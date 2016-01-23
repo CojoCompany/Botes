@@ -1,0 +1,6 @@
+trap break INT
+
+while true; do
+    python vasallobot.py
+    git pull
+done
